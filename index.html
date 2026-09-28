@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SIPPY — Toshkentdagi zamonaviy koffe xonasi. Premium espresso, qo'lda tayyorlangan ichimliklar, yangi pirojnalar va qulay muhit."
+    />
+    <title>SIPPY | Coffee House Uzbekistan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="container nav-wrap">
+          <a href="#home" class="brand" aria-label="SIPPY home">
+            <span class="brand-mark">S</span>
+            <span class="brand-text">SIPPY</span>
+          </a>
+
+          <nav class="nav" aria-label="Main navigation">
+            <a href="#about" data-i18n="navAbout">Biz haqimizda</a>
+            <a href="#menu" data-i18n="navMenu">Menyu</a>
+            <a href="#experience" data-i18n="navExperience">Tajriba</a>
+            <a href="#visit" data-i18n="navVisit">Bog'lanish</a>
+          </nav>
+
+          <div class="header-actions">
+            <div class="lang-switch" aria-label="Language switcher">
+              <button class="lang-btn active" data-lang="uz" type="button">UZ</button>
+              <button class="lang-btn" data-lang="ru" type="button">RU</button>
+              <button class="lang-btn" data-lang="en" type="button">EN</button>
+            </div>
+            <a class="button button-primary nav-cta" href="#visit" data-i18n="bookTable">Jadval band qiling</a>
+          </div>
+        </div>
+      </header>
+
+      <main id="home">
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow" data-i18n="eyebrow">Yangi kofe • Iliq lahzalar • Toshkent</p>
+              <h1 data-i18n="heroTitle">O'zbekiston ritmi uchun yaratilgan kofe.</h1>
+              <p class="lead" data-i18n="heroLead">
+                SIPPY — O'zbekiston mehmondo'stligi va maxsus kofe madaniyatini birlashtirgan
+                premium ko'cha kofe xonasi. Toshkentning markazida tayyorlangan qo'lda ishlab
+                chiqarilgan ichimliklar, sekin ertaklar va mazali pirojnalar bilan tanishing.
+              </p>
+
+              <div class="hero-actions">
+                <a class="button button-primary" href="#menu" data-i18n="exploreMenu">Menyuni ko'ring</a>
+                <a class="button button-secondary" href="#visit" data-i18n="findUs">Bizni toping</a>
+              </div>
+
+              <ul class="hero-meta" aria-label="Coffee house highlights">
+                <li><strong>9+</strong><span data-i18n="metaDrinks">imzo ichimliklar</span></li>
+                <li><strong>7:00</strong><span data-i18n="metaOpen">kundalik ochiq</span></li>
+                <li><strong>4.9/5</strong><span data-i18n="metaRating">mehmon bahosi</span></li>
+              </ul>
+            </div>
+
+            <div class="hero-visual" aria-label="Coffee shop interior showcase">
+              <div class="image-card main-image">
+                <img
+                  src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80"
+                  alt="SIPPY kofe va pirojnozlar"
+                />
+              </div>
+              <div class="floating-card card-top">
+                <span class="card-label" data-i18n="cardMostLoved">Eng ko'p yoqtiriladi</span>
+                <strong data-i18n="cardDrinkName">Pistachio Cloud</strong>
+                <small data-i18n="cardDrinkText">yong'oq ta'mi • yumshoq ko'pik</small>
+              </div>
+              <div class="floating-card card-bottom">
+                <span class="card-label" data-i18n="cardOpenToday">Bugun ochiq</span>
+                <strong>7:00 – 23:00</strong>
+                <small data-i18n="cardMusic">Jonli musiqa • hafta oxiri</small>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="feature-bar">
+          <div class="container feature-grid">
+            <div>
+              <span class="icon">☕</span>
+              <div>
+                <h3 data-i18n="feature1Title">Yagona manbali aralashmalar</h3>
+                <p data-i18n="feature1Text">Muvozanat, xushbo'y hid va chuqur ta'm uchun tanlangan maxsus donalar.</p>
+              </div>
+            </div>
+            <div>
+              <span class="icon">🥐</span>
+              <div>
+                <h3 data-i18n="feature2Title">Yangi nonvoyxona</h3>
+                <p data-i18n="feature2Text">Har kuni tayyorlanadigan sariyog'li pirojnalar va shirin taomlar.</p>
+              </div>
+            </div>
+            <div>
+              <span class="icon">🎶</span>
+              <div>
+                <h3 data-i18n="feature3Title">Muhit</h3>
+                <p data-i18n="feature3Text">Zayif musiqa, qulay joylar va dam olish uchun yaratilgan atmosfera.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="story section-space">
+          <div class="container story-grid">
+            <div class="story-image">
+              <img
+                src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1200&q=80"
+                alt="SIPPY kafesi ichki ko'rinishi"
+              />
+            </div>
+            <div class="story-copy">
+              <p class="eyebrow" data-i18n="whySippy">Nega SIPPY</p>
+              <h2 data-i18n="storyTitle">O'zbek iliqligi bilan ildiz otgan zamonaviy kofe madaniyati.</h2>
+              <p data-i18n="storyText1">
+                SIPPY — ertalablar sekin boshlanadigan, suhbatlar uzoq davom etadigan va har bir
+                stakan kofe o'ylab tayyorlangan joy sifatida tasavvur qilindi. Kafelar madaniyatining
+                elegancei va O'zbekiston mehmondo'stligidan ilhomlangan holda, biz xalqaro kofe
+                hunarmandligini mahalliy mehmondo'stlik bilan birlashtiramiz.
+              </p>
+              <p data-i18n="storyText2">
+                Siz do'stlaringiz bilan uchrashayotgan bo'lsangiz, ijodiy tanaffus olayapsiz yoki
+                ishlashdan oldin tinch espresso ichyapsiz, SIPPY sizga dam olish, qayta quvvatga
+                ega bo'lish va lahzani baholash uchun qulay ritual yaratadi.
+              </p>
+
+              <div class="story-checks">
+                <span data-i18n="check1">Premium donalar</span>
+                <span data-i18n="check2">Zayif lounge</span>
+                <span data-i18n="check3">Do'stona xizmat</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="menu" class="menu section-space">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow" data-i18n="menuEyebrow">Imzo menyu</p>
+              <h2 data-i18n="menuTitle">Sevgi bilan tayyorlangan kofe, kuchli ta'm.</h2>
+            </div>
+
+            <div class="menu-catalog">
+              <div class="menu-category">
+                <h3>Coffee</h3>
+                <div class="menu-items">
+                  <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1497636577773-f1231844b336?auto=format&fit=crop&w=900&q=80" alt="SIPPY Espresso" />
+                    <div class="item-copy">
+                      <div class="item-head">
+                        <h4>SIPPY Espresso</h4>
+                        <span>28 000 UZS</span>
+                      </div>
+                      <p>Bold espresso with rich crema, caramel sweetness, and a clean finish.</p>
+                    </div>
+                  </article>
+
+                  <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=80" alt="Tashkent Latte" />
+                    <div class="item-copy">
+                      <div class="item-head">
+                        <h4>Tashkent Latte</h4>
+                        <span>34 000 UZS</span>
+                      </div>
+                      <p>Smooth milk foam and subtle vanilla notes with a local aromatic finish.</p>
+                    </div>
+                  </article>
+
+                  <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=80" alt="Cappuccino" />
+                    <div class="item-copy">
+                      <div class="item-head">
+                        <h4>Cappuccino</h4>
+                        <span>30 000 UZS</span>
+                      </div>
+                      <p>Balanced espresso with dense foam and a softly roasted body.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="menu-category">
+                <h3>Signature Drinks</h3>
+                <div class="menu-items">
+                  <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="Pistachio Cloud" />
+                    <div class="item-copy">
+                      <div class="item-head">
+                        <h4>Pistachio Cloud</h4>
+                        <span>39 000 UZS</span>
+                      </div>
+                      <p>Pistachio cream and espresso layered into a creamy nutty favorite.</p>
+                    </div>
+                  </article>
+
+                  <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80" alt="Mocha" />
+                    <div class="item-copy">
+                      <div class="item-head">
+                        <h4>Mocha</h4>
+                        <span>33 000 UZS</span>
+                      </div>
+                      <p>Espresso, cocoa, and creamy milk with a rich chocolate finish.</p>
+                    </div>
+                  </article>
+
+                  <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&q=80" alt="Flat White" />
+                    <div class="item-copy">
+                      <div class="item-head">
+                        <h4>Flat White</h4>
+                        <span>31 000 UZS</span>
+                      </div>
+                      <p>Double espresso with silky microfoam and a smooth, mellow taste.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="menu-category">
+                <h3>Cold & Tea</h3>
+                <div class="menu-items">
+                  <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=80" alt="Sunrise Cold Brew" />
+                    <div class="item-copy">
+                      <div class="item-head">
+                        <h4>Sunrise Cold Brew</h4>
+                        <span>32 000 UZS</span>
+                      </div>
+                      <p>Slow-steeped coffee with orange zest and a bright citrus finish.</p>
+                    </div>
+                  </article>
+
+                  <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=80" alt="Peach Iced Tea" />
+                    <div class="item-copy">
+                      <div class="item-head">
+                        <h4>Peach Iced Tea</h4>
+                        <span>22 000 UZS</span>
+                      </div>
+                      <p>Chilled and lightly sweet tea with a fresh peach aroma.</p>
+                    </div>
+                  </article>
+
+                  <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=900&q=80" alt="Matcha Latte" />
+                    <div class="item-copy">
+                      <div class="item-head">
+                        <h4>Matcha Latte</h4>
+                        <span>35 000 UZS</span>
+                      </div>
+                      <p>Earthy matcha blended with smooth milk for a creamy finish.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="menu-category">
+                <h3>Desserts & Bakery</h3>
+                <div class="menu-items">
+                  <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=900&q=80" alt="Butter Croissant" />
+                    <div class="item-copy">
+                      <div class="item-head">
+                        <h4>Butter Croissant</h4>
+                        <span>18 000 UZS</span>
+                      </div>
+                      <p>Layered, buttery pastry with a crisp golden exterior and soft center.</p>
+                    </div>
+                  </article>
+
+                  <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?auto=format&fit=crop&w=900&q=80" alt="Classic Cheesecake" />
+                    <div class="item-copy">
+                      <div class="item-head">
+                        <h4>Classic Cheesecake</h4>
+                        <span>24 000 UZS</span>
+                      </div>
+                      <p>Creamy cheesecake with vanilla richness and a biscuit base.</p>
+                    </div>
+                  </article>
+
+                  <article class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80" alt="Chocolate Muffin" />
+                    <div class="item-copy">
+                      <div class="item-head">
+                        <h4>Chocolate Muffin</h4>
+                        <span>20 000 UZS</span>
+                      </div>
+                      <p>Soft cocoa sponge with rich chocolate chunks and a moist crumb.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience" class="experience section-space">
+          <div class="container experience-grid">
+            <div class="experience-copy">
+              <p class="eyebrow" data-i18n="experienceEyebrow">Tajriba</p>
+              <h2 data-i18n="experienceTitle">Har bir tafsil bir tekis va qulay his-tuyg'uga mo'ljallangan.</h2>
+              <div class="experience-list">
+                <div>
+                  <strong>01.</strong>
+                  <div>
+                    <h3 data-i18n="exp1Title">Ish va dam olish uchun qulay</h3>
+                    <p data-i18n="exp1Text">Qulay stullar, tez Wi‑Fi va diqqatga sazovor muhit.</p>
+                  </div>
+                </div>
+                <div>
+                  <strong>02.</strong>
+                  <div>
+                    <h3 data-i18n="exp2Title">Tanlangan taomlar</h3>
+                    <p data-i18n="exp2Text">Yumshoq kruassanlardan tortgacha, har bir taom kofe bilan mukammal uyg'un.</p>
+                  </div>
+                </div>
+                <div>
+                  <strong>03.</strong>
+                  <div>
+                    <h3 data-i18n="exp3Title">Kechki muhit</h3>
+                    <p data-i18n="exp3Text">Yumshoq yorug'lik, yumshoq musiqalar va mehmondo'stlik hissi.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="experience-visual">
+              <img
+                src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80"
+                alt="SIPPY kofe va pirojnozlar"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="reviews section-space">
+          <div class="container">
+            <div class="section-heading narrow">
+              <p class="eyebrow" data-i18n="reviewsEyebrow">Mehmonlar tomonidan sevimli</p>
+              <h2 data-i18n="reviewsTitle">Kofe uchun kelishadi, atmosfera uchun qolishadi.</h2>
+            </div>
+
+            <div class="review-grid">
+              <blockquote data-i18n="quote1">
+                “Toshkentdagi eng yaxshi espresso. Tinch muhit, chiroyli ichki makon va haqiqatan ham g'amxo'rlik qiluvchi jamoa.”
+                <footer>— Dilnoza, talabalar</footer>
+              </blockquote>
+              <blockquote data-i18n="quote2">
+                “SIPPY luxdan ham qulayroq, lekin muhit juda iliq. Ularning pista ichimliklari esdan chiqmaydi.”
+                <footer>— Jamshid, ijodchi direktor</footer>
+              </blockquote>
+              <blockquote data-i18n="quote3">
+                “Uchrashuvlar va sekin ertaklar uchun mukammal joy. Kofe sifati doimo a'lo.”
+                <footer>— Lobar, tadbirkor</footer>
+              </blockquote>
+            </div>
+          </div>
+        </section>
+
+        <section id="visit" class="visit section-space">
+          <div class="container visit-grid">
+            <div class="visit-card info-card">
+              <p class="eyebrow" data-i18n="visitEyebrow">SIPPYga tashrif buyuring</p>
+              <h2 data-i18n="visitTitle">Keyingi kofe tanaffusini unutilmas qiling.</h2>
+              <ul>
+                <li><strong data-i18n="locLabel">Manzil:</strong> Amir Temur ko'chasi, Toshkent, O'zbekiston</li>
+                <li><strong data-i18n="callLabel">Telefon:</strong> +998 90 123 45 67</li>
+                <li><strong data-i18n="emailLabel">Email:</strong> hello@sippy.uz</li>
+                <li><strong data-i18n="hoursLabel">Ish vaqti:</strong> Du–Yak, 7:00 – 23:00</li>
+              </ul>
+            </div>
+
+            <div class="visit-card form-card">
+              <form class="reservation-form">
+                <label>
+                  <span data-i18n="fieldName">Ism</span>
+                  <input type="text" name="name" data-i18n-placeholder="placeholderName" placeholder="Ismingiz" />
+                </label>
+                <label>
+                  <span data-i18n="fieldPhone">Telefon</span>
+                  <input type="tel" name="phone" data-i18n-placeholder="placeholderPhone" placeholder="Telefon raqamingiz" />
+                </label>
+                <label>
+                  <span data-i18n="fieldDate">Sana</span>
+                  <input type="date" name="date" />
+                </label>
+                <button type="submit" class="button button-primary" data-i18n="reserveNow">Hozir bron qilish</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer-wrap">
+          <div>
+            <a href="#home" class="brand footer-brand">
+              <span class="brand-mark">S</span>
+              <span class="brand-text">SIPPY</span>
+            </a>
+            <p data-i18n="footerText">Kofe, issiq mehmondo'stlik va O'zbekistondagi esda qolarli lahzalar.</p>
+          </div>
+
+          <div class="footer-links">
+            <a href="#about" data-i18n="navAbout">Biz haqimizda</a>
+            <a href="#menu" data-i18n="navMenu">Menyu</a>
+            <a href="#visit" data-i18n="navVisit">Bog'lanish</a>
+          </div>
+
+          <p class="copyright">© <span id="year"></span> SIPPY Coffee House</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
